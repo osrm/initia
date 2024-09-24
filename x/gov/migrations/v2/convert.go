@@ -2,7 +2,6 @@ package v1
 
 import (
 	"context"
-	"fmt"
 
 	"cosmossdk.io/collections"
 	corestoretypes "cosmossdk.io/core/store"
@@ -58,7 +57,6 @@ func MigrateStore(
 		return err
 	}
 
-	fmt.Println("SIBONG")
 	return legacyProposals.Walk(ctx, nil, func(pid uint64, lp customtypes.LegacyProposal) (bool, error) {
 		p := ConvertLegacyProposalToProposal(lp)
 		return false, proposals.Set(ctx, pid, p)
