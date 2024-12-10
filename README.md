@@ -31,7 +31,7 @@ Initia's product stack unifies the architecture, offering users a singular chain
 
 Join the Initia community for questions and updates!
 
-- [Twitter](https://twitter.com/initiaFDN)
+- [X](https://x.com/initia)
 - [Discord](https://discord.gg/initia)
 - [Medium](https://medium.com/@initiafdn)
   
